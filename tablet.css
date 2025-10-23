@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1024px) {
+  .container {
+    max-width: 884px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .section2-img {
+    display: none;
+  }
+
+  .section3-img {
+    width: 429.5px;
+    height: 578px;
+    object-fit: cover;
+  }
+
+  .section3-content-title {
+    height: auto;
+  }
+
+  .section3-icon {
+    width: 52px;
+    height: 52px;
+  }
+
+  .section3-content-box {
+    height: auto;
+  }
+
+  .section4 .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section4-img {
+    display: none;
+  }
+}
