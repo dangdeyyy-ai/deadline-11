@@ -74,6 +74,9 @@ body {
 
 .section1 {
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .section1 .container {
@@ -81,6 +84,7 @@ body {
   flex-direction: column;
   gap: 33px;
   max-width: 1300px;
+  width: 98%;
 }
 
 .section1-title {
@@ -218,6 +222,9 @@ body {
 
 .section3 {
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .section3 .container {
