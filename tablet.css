@@ -1,22 +1,71 @@
 @media only screen and (max-width: 1024px) {
   .container {
     max-width: 884px;
-    width: 100%;
+    width: 98%;
     margin: 0 auto;
+  }
+
+  .body-section {
+    min-height: 3648px;
+    margin-top: 60px;
+  }
+
+  .section1 {
+    height: 768px;
+  }
+
+  .section2 {
+    display: flex;
+    align-items: center;
   }
 
   .section2-img {
     display: none;
   }
 
+  .section2-content {
+    height: auto;
+  }
+
+  .section2-content-box {
+    width: 589px;
+    height: 220px;
+  }
+
+  .section2-content-title {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .section2-content-small-box {
+    max-width: 268px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section3 {
+  }
+
+  .section3 .container {
+    gap: 25px;
+    width: 98%;
+  }
+
+  .section3-content {
+  }
+
   .section3-img {
-    width: 429.5px;
+    width: calc((100% - 53px) / 2);
     height: 578px;
+    border-radius: 16px;
     object-fit: cover;
   }
 
   .section3-content-title {
     height: auto;
+    gap: 16px;
   }
 
   .section3-icon {
@@ -28,12 +77,75 @@
     height: auto;
   }
 
-  .section4 .container {
-    display: flex;
-    justify-content: center;
+  .section3-box-text {
+    color: #285e67;
+  }
+
+  .section4 {
+    height: 541px;
+  }
+
+  .section4-content {
+    height: 327px;
   }
 
   .section4-img {
     display: none;
+  }
+
+  .section4-content-title {
+    margin: 0;
+    height: 99px;
+    padding: 11px 0 0 0;
+  }
+
+  .section4-content-small-box {
+    align-items: center;
+    text-align: center;
+    height: 187px;
+  }
+
+  .section4-box-text {
+    height: 110px;
+  }
+
+  .section5-bottom-content {
+    max-width: 743px;
+    width: 100%;
+    height: 397px;
+  }
+
+  .section5-bottom-box {
+    width: 611px;
+    gap: 49px 30px;
+  }
+
+  .section5-bottom-small-box {
+    display: flex;
+    align-items: center;
+    width: calc((100% - 30px * 1) / 2);
+    height: 103px;
+  }
+
+  .section5-icon2 {
+    width: 60px;
+    height: 60px;
+  }
+
+  .footer .container {
+    max-width: 747px;
+    height: 100%;
+  }
+
+  .footer-row1 {
+    flex-direction: column;
+    gap: 36px;
+  }
+}
+@media only screen and (max-width: 940px) {
+  .section3-content-title {
+    height: auto;
+    gap: 0;
+    padding: 0;
   }
 }
