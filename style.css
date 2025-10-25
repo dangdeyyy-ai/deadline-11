@@ -148,6 +148,7 @@ body {
   width: calc((100% - 48px) / 2);
   height: 390px;
   object-fit: cover;
+  border-radius: 16px;
 }
 
 .section2 {
@@ -243,6 +244,7 @@ body {
   width: calc((100% - 53px) / 2);
   height: 578px;
   object-fit: cover;
+  border-radius: 16px;
 }
 
 .section3-content {
